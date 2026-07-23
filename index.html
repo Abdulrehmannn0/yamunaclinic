@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yamuna Dental Clinic — Healthy Smiles. Trusted Care.</title>
+<meta name="description" content="Yamuna Dental Clinic — premium dental care. Implants, braces, smile makeovers, root canal, and family dentistry.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,340;0,9..144,480;0,9..144,560;1,9..144,460&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M15 5C10 5 6 9 6 14C6 18 8 22 9.5 25C10.2 26.5 12 26 12.3 24.3C12.7 22 13.5 17 15 17C16.5 17 17.3 22 17.7 24.3C18 26 19.8 26.5 20.5 25C22 22 24 18 24 14C24 9 20 5 15 5Z" stroke="#0EA5E9" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      </span>
+      <span class="brand-word">Yamuna<em>Dental</em></span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#treatments">Treatments</a>
+      <a href="#doctors">Doctors</a>
+      <a href="#gallery">Smile Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#offers">Offers</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="tel:+911204567890" class="nav-icon-btn" aria-label="Call clinic" title="Call Now">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#" class="btn btn-primary btn-sm magnetic" data-magnetic>Book Appointment</a>
+      <button class="lang-toggle" id="langToggle" aria-label="Toggle language">EN / हिं</button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.5"/><path d="M12 2.5v2.3M12 19.2v2.3M4.2 4.2l1.6 1.6M18.2 18.2l1.6 1.6M2.5 12h2.3M19.2 12h2.3M4.2 19.8l1.6-1.6M18.2 5.8l1.6-1.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <nav aria-label="Mobile Primary">
+    <a href="#treatments">Treatments</a>
+    <a href="#doctors">Doctors</a>
+    <a href="#gallery">Smile Gallery</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#offers">Offers</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+    <a href="#book" class="btn btn-primary" style="margin-top:20px;">Book Appointment</a>
+  </nav>
+</div>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <video autoplay muted loop playsinline poster="" id="heroVideo">
+      <source src="https://cdn.coverr.co/videos/coverr-a-dentist-examining-a-patients-teeth-9317/1080p.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+  </div>
+
+  <svg class="smile-arc" viewBox="0 0 1440 200" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,20 C 360,180 1080,180 1440,20" stroke="url(#arcGrad)" stroke-width="1.5" fill="none"/>
+    <defs><linearGradient id="arcGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0EA5E9" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#0EA5E9" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+    </linearGradient></defs>
+  </svg>
+
+  <div class="hero-content">
+    <p class="eyebrow reveal-up">Healthy Smiles. Trusted Care.</p>
+    <h1 class="hero-title">
+      <span class="reveal-line"><span class="reveal-inner">Creating Beautiful</span></span>
+      <span class="reveal-line"><span class="reveal-inner">Healthy <em>Smiles.</em></span></span>
+    </h1>
+    <p class="hero-sub reveal-up">Advanced dentistry, gentle hands, and a clinic built around how it feels to be a patient — not just how it looks to be a provider.</p>
+
+    <div class="hero-ctas reveal-up">
+      <a href="#book" class="btn btn-primary btn-lg magnetic" data-magnetic>Book Appointment</a>
+      <a href="tel:+911204567890" class="btn btn-ghost btn-lg magnetic" data-magnetic>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        Call Now
+      </a>
+      <a href="https://wa.me/911204567890" class="btn btn-whatsapp btn-lg magnetic" data-magnetic>
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l5.08-1.33A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18.2c-1.63 0-3.15-.46-4.44-1.26l-.32-.19-2.98.78.8-2.9-.21-.3A8.18 8.18 0 013.8 12 8.2 8.2 0 1112 20.2zm4.5-6.13c-.24-.12-1.44-.71-1.66-.79-.22-.08-.39-.12-.55.12-.16.24-.63.79-.78.95-.14.16-.28.18-.53.06-.24-.12-1.02-.38-1.95-1.2-.72-.64-1.2-1.44-1.35-1.68-.14-.24-.02-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.42-.55-.42-.14 0-.3-.02-.46-.02-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.44-.59 1.64-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+
+    <div class="hero-stats reveal-up">
+      <div class="hero-stat"><span class="num" data-count="18">0</span><span class="label">Years of Care</span></div>
+      <div class="hero-stat"><span class="num" data-count="24000">0</span><span class="label">Smiles Treated</span></div>
+      <div class="hero-stat"><span class="num" data-count="4.9" data-decimal="1">0</span><span class="label">Google Rating</span></div>
+      <div class="hero-stat"><span class="num" data-count="7">0</span><span class="label">Specialist Dentists</span></div>
+    </div>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true"><span></span>Scroll</div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<section class="trust-strip">
+  <div class="trust-inner">
+    <div class="trust-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2l8 3.5v5.7c0 5-3.4 8.9-8 10.8-4.6-1.9-8-5.8-8-10.8V5.5L12 2z" stroke="currentColor" stroke-width="1.5"/></svg> ISO Certified Sterilization</div>
+    <div class="trust-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M8 12.5l2.5 2.5 5.5-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Painless Digital Dentistry</div>
+    <div class="trust-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.5-9.3-9A6 6 0 0112 5.5 6 6 0 0121.3 12c-2.3 4.5-9.3 9-9.3 9z" stroke="currentColor" stroke-width="1.5"/></svg> Cashless Insurance Support</div>
+    <div class="trust-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 8v5l3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/></svg> Emergency Care, Same Day</div>
+    <div class="trust-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 12l6 6L20 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> 4.9★ on Google (2,300+ Reviews)</div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="treatments">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">What We Treat</p>
+      <h2 class="section-title">Every kind of care, <em>under one roof.</em></h2>
+      <p class="section-sub">From a routine check-up to a full smile makeover — one clinic, one standard of precision.</p>
+    </div>
+
+    <div class="services-grid">
+      <!-- populated via JS-free static cards -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE US ============ -->
+<section class="section why-section">
+  <div class="container why-grid">
+    <div class="why-media">
+      <div class="why-img-wrap">
+        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1200&auto=format&fit=crop" alt="Dentist examining patient at Yamuna Dental Clinic" loading="lazy">
+      </div>
+      <div class="why-badge">
+        <span class="why-badge-num">18+</span>
+        <span class="why-badge-label">Years of<br>Clinical Trust</span>
+      </div>
+    </div>
+    <div class="why-copy">
+      <p class="eyebrow">Why Yamuna</p>
+      <h2 class="section-title">Care that considers <em>the whole visit,</em> not just the tooth.</h2>
+      <div class="why-list">
+        <div class="why-row">
+          <span class="why-icon">01</span>
+          <div><h3>Digital-first diagnostics</h3><p>Intraoral scanners and digital X-rays mean less guessing, less radiation, and a plan you can actually see.</p></div>
+        </div>
+        <div class="why-row">
+          <span class="why-icon">02</span>
+          <div><h3>Pain-managed procedures</h3><p>Sedation options and a deliberately unhurried approach — most patients describe treatment as more comfortable than expected.</p></div>
+        </div>
+        <div class="why-row">
+          <span class="why-icon">03</span>
+          <div><h3>Transparent pricing</h3><p>You see the estimate before you see the chair. No surprise line items, ever.</p></div>
+        </div>
+        <div class="why-row">
+          <span class="why-icon">04</span>
+          <div><h3>One team, full continuity</h3><p>The dentist who plans your treatment is the one who finishes it — every time.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEET THE DENTISTS ============ -->
+<section class="section" id="doctors">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Meet the Team</p>
+      <h2 class="section-title">Specialists behind <em>every smile.</em></h2>
+      <p class="section-sub">Seven dentists, seven specialities, one shared standard of care.</p>
+    </div>
+    <div class="doctors-grid"></div>
+  </div>
+</section>
+
+<!-- ============ BEFORE / AFTER GALLERY ============ -->
+<section class="section gallery-section" id="gallery">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Smile Gallery</p>
+      <h2 class="section-title">See the <em>transformation.</em></h2>
+      <p class="section-sub">Drag the slider — every image is a real patient result.</p>
+    </div>
+
+    <div class="ba-slider" id="baSlider">
+      <div class="ba-after">
+        <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?q=80&w=1200&auto=format&fit=crop" alt="After smile makeover" loading="lazy">
+        <span class="ba-tag ba-tag-after">After</span>
+      </div>
+      <div class="ba-before" id="baBefore">
+        <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1200&auto=format&fit=crop" alt="Before smile makeover" loading="lazy">
+        <span class="ba-tag ba-tag-before">Before</span>
+      </div>
+      <div class="ba-handle" id="baHandle">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M8 5l-6 7 6 7M16 5l6 7-6 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+    </div>
+
+    <div class="gallery-thumbs">
+      <button class="gallery-thumb active" data-before="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1200&auto=format&fit=crop" data-after="https://images.unsplash.com/photo-1581056771107-24ca5f033842?q=80&w=1200&auto=format&fit=crop">Smile Makeover</button>
+      <button class="gallery-thumb" data-before="https://images.unsplash.com/photo-1518131678677-a5a3c47a1c8a?q=80&w=1200&auto=format&fit=crop" data-after="https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?q=80&w=1200&auto=format&fit=crop">Teeth Whitening</button>
+      <button class="gallery-thumb" data-before="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?q=80&w=1200&auto=format&fit=crop" data-after="https://images.unsplash.com/photo-1600091166971-7f9faad6c1e2?q=80&w=1200&auto=format&fit=crop">Dental Implants</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CLINIC TOUR ============ -->
+<section class="section tour-section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Clinic Tour</p>
+      <h2 class="section-title">A space designed to <em>put you at ease.</em></h2>
+    </div>
+    <div class="tour-grid">
+      <div class="tour-card tall"><img src="https://images.unsplash.com/photo-1629909615184-74f495363b67?q=80&w=1000&auto=format&fit=crop" alt="Reception area" loading="lazy"><span>Reception & Lounge</span></div>
+      <div class="tour-card"><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=1000&auto=format&fit=crop" alt="Treatment room" loading="lazy"><span>Treatment Suite 1</span></div>
+      <div class="tour-card"><img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1000&auto=format&fit=crop" alt="Sterilization room" loading="lazy"><span>Sterilization Bay</span></div>
+      <div class="tour-card wide"><img src="https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?q=80&w=1200&auto=format&fit=crop" alt="Consultation room" loading="lazy"><span>Consultation Room</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OFFERS ============ -->
+<section class="section offers-section" id="offers">
+  <div class="container">
+    <div class="section-head light">
+      <p class="eyebrow">Current Offers</p>
+      <h2 class="section-title">Care that's easier <em>to start today.</em></h2>
+    </div>
+    <div class="offers-grid">
+      <div class="offer-card featured">
+        <span class="offer-badge">Most Booked</span>
+        <h3>Free Consultation</h3>
+        <p>A full oral exam and digital X-ray, on us — no obligation to proceed.</p>
+        <a href="#book" class="offer-link">Claim Offer →</a>
+      </div>
+      <div class="offer-card">
+        <h3>Teeth Whitening</h3>
+        <p>Flat 20% off in-clinic whitening sessions this month.</p>
+        <a href="#book" class="offer-link">Claim Offer →</a>
+      </div>
+      <div class="offer-card">
+        <h3>Family Dental Package</h3>
+        <p>Check-ups for up to 4 family members at a bundled rate.</p>
+        <a href="#book" class="offer-link">Claim Offer →</a>
+      </div>
+      <div class="offer-card">
+        <h3>Student Discount</h3>
+        <p>15% off all treatments with a valid student ID.</p>
+        <a href="#book" class="offer-link">Claim Offer →</a>
+      </div>
+      <div class="offer-card">
+        <h3>Smile Makeover Package</h3>
+        <p>Bundled veneers + whitening + consult, with staged payment.</p>
+        <a href="#book" class="offer-link">Claim Offer →</a>
+      </div>
+      <div class="offer-card">
+        <h3>Membership Plan</h3>
+        <p>Two cleanings and priority booking a year, for one annual fee.</p>
+        <a href="#book" class="offer-link">Claim Offer →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section" id="reviews">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Patient Reviews</p>
+      <h2 class="section-title">Words from <em>real patients.</em></h2>
+      <div class="google-rating-pill">
+        <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+        <strong>4.9</strong> · 2,300+ Google Reviews
+      </div>
+    </div>
+
+    <div class="reviews-track">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"I used to dread the dentist. My implant procedure here was the calmest medical visit I've ever had — they explained every step before doing it."</p>
+        <div class="review-who"><span>Ritika M.</span><small>Dental Implant · Google Review</small></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Got my daughter's braces done here. The kids' dentistry team is patient in the truest sense — she actually looks forward to appointments now."</p>
+        <div class="review-who"><span>Ashok P.</span><small>Kids Dentistry · Google Review</small></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Walked in with a cracked tooth on a Sunday evening — they saw me within the hour. That's the kind of clinic you trust with your whole family."</p>
+        <div class="review-who"><span>Neha S.</span><small>Emergency Care · Google Review</small></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"The smile makeover exceeded what I imagined from the mock-up. Genuinely feels like a different, better version of my own smile."</p>
+        <div class="review-who"><span>Farhan K.</span><small>Smile Makeover · Google Review</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INSURANCE + EMERGENCY ============ -->
+<section class="section split-section">
+  <div class="container split-grid">
+    <div class="split-card">
+      <span class="split-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.5-9.3-9A6 6 0 0112 5.5 6 6 0 0121.3 12c-2.3 4.5-9.3 9-9.3 9z" stroke="#0EA5E9" stroke-width="1.6"/></svg>
+      </span>
+      <h3>Insurance & Cashless Support</h3>
+      <p>We coordinate directly with major insurers for cashless treatment and help you file claims for reimbursed procedures — one less thing to manage while you heal.</p>
+      <a href="#contact" class="link-arrow">Check your coverage →</a>
+    </div>
+    <div class="split-card">
+      <span class="split-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 8v5l3 2" stroke="#10B981" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="12" r="9" stroke="#10B981" stroke-width="1.6"/></svg>
+      </span>
+      <h3>Emergency Dental Care</h3>
+      <p>Sudden pain, a broken tooth, a knocked-out crown — call ahead and we'll fit you in same day. Our on-call dentist is reachable after hours for genuine emergencies.</p>
+      <a href="tel:+911204567890" class="link-arrow">Emergency line: +91 120 456 7890 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section faq-section" id="faq">
+  <div class="container faq-container">
+    <div class="section-head">
+      <p class="eyebrow">Good to Know</p>
+      <h2 class="section-title">Frequently asked <em>questions.</em></h2>
+    </div>
+
+    <div class="faq-search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.6"/><path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <input type="text" id="faqSearch" placeholder="Search a question — e.g. 'root canal pain'">
+    </div>
+
+    <div class="faq-list" id="faqList">
+      <div class="faq-item">
+        <button class="faq-q">Does a root canal actually hurt?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>With modern local anaesthesia, most patients feel pressure rather than pain during the procedure itself. Mild soreness for a day or two afterward is normal and manageable with over-the-counter medication.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How long do dental implants last?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>With good oral hygiene and regular check-ups, implants commonly last 15–25 years or longer. The titanium post itself often lasts a lifetime; the crown on top may need replacement after a decade or two.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do you accept walk-ins for emergencies?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>Yes — call ahead if you can so we can prepare a chair, but genuine emergencies are seen the same day, including evenings and Sundays.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What's the difference between braces and clear aligners?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>Braces are fixed and typically handle more complex movement in less time. Clear aligners are removable and nearly invisible, suited to mild-to-moderate cases and adults who prefer a discreet option. We'll recommend one after your scan.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do you offer payment plans for smile makeovers?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>Yes — our smile makeover package can be staged across the treatment timeline rather than paid upfront. Ask your dentist to lay out a plan at consultation.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Is teeth whitening safe for enamel?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>In-clinic whitening under professional supervision is safe for most adults and does not damage enamel when done at recommended intervals. We screen for sensitivity and existing dental work first.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BOOK APPOINTMENT ============ -->
+<section class="section book-section" id="book">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Book Appointment</p>
+      <h2 class="section-title">Reserve your <em>visit in minutes.</em></h2>
+    </div>
+
+    <div class="booking-card">
+      <div class="booking-steps" id="bookingSteps">
+        <div class="bstep active" data-step="1"><span>1</span>Treatment</div>
+        <div class="bstep" data-step="2"><span>2</span>Doctor</div>
+        <div class="bstep" data-step="3"><span>3</span>Date & Time</div>
+        <div class="bstep" data-step="4"><span>4</span>Your Details</div>
+      </div>
+
+      <div class="booking-panels">
+        <div class="bpanel active" data-panel="1">
+          <div class="chip-grid" id="treatmentChips">
+            <button class="chip">Check-up</button><button class="chip">Root Canal</button>
+            <button class="chip">Implants</button><button class="chip">Braces</button>
+            <button class="chip">Whitening</button><button class="chip">Smile Makeover</button>
+            <button class="chip">Kids Dentistry</button><button class="chip">Emergency</button>
+          </div>
+          <button class="btn btn-primary step-next">Continue</button>
+        </div>
+
+        <div class="bpanel" data-panel="2">
+          <div class="doctor-pick-grid" id="doctorChips">
+            <button class="doc-chip"><img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=200&auto=format&fit=crop" alt=""><span>Dr. Ananya Rao</span></button>
+            <button class="doc-chip"><img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=200&auto=format&fit=crop" alt=""><span>Dr. Vikram Sethi</span></button>
+            <button class="doc-chip"><img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=200&auto=format&fit=crop" alt=""><span>Dr. Priya Nair</span></button>
+            <button class="doc-chip no-preference"><span class="np-icon">✓</span><span>No Preference</span></button>
+          </div>
+          <div class="step-actions"><button class="btn btn-ghost step-back">Back</button><button class="btn btn-primary step-next">Continue</button></div>
+        </div>
+
+        <div class="bpanel" data-panel="3">
+          <div class="date-row" id="dateRow"></div>
+          <div class="time-grid" id="timeGrid">
+            <button class="time-chip">9:00 AM</button><button class="time-chip">10:30 AM</button>
+            <button class="time-chip">12:00 PM</button><button class="time-chip">2:30 PM</button>
+            <button class="time-chip">4:00 PM</button><button class="time-chip">5:30 PM</button>
+            <button class="time-chip">7:00 PM</button><button class="time-chip">8:00 PM</button>
+          </div>
+          <div class="step-actions"><button class="btn btn-ghost step-back">Back</button><button class="btn btn-primary step-next">Continue</button></div>
+        </div>
+
+        <div class="bpanel" data-panel="4">
+          <form class="detail-form" id="bookingForm">
+            <div class="form-row">
+              <label>Full Name<input type="text" required placeholder="Your name"></label>
+              <label>Phone Number<input type="tel" required placeholder="+91"></label>
+            </div>
+            <div class="form-row">
+              <label>Email<input type="email" placeholder="you@email.com"></label>
+              <label>Notes (optional)<input type="text" placeholder="Anything we should know?"></label>
+            </div>
+            <label class="checkbox-row"><input type="checkbox" checked> Send confirmation via WhatsApp & Email</label>
+            <div class="step-actions"><button type="button" class="btn btn-ghost step-back">Back</button><button type="submit" class="btn btn-primary">Confirm Appointment</button></div>
+          </form>
+          <div class="booking-success" id="bookingSuccess">
+            <svg width="52" height="52" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#10B981" stroke-width="1.5"/><path d="M8 12.5l2.5 2.5 5.5-6" stroke="#10B981" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <h3>You're booked.</h3>
+            <p>A confirmation is on its way to your WhatsApp and email — we'll see you soon.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact-section" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <p class="eyebrow">Visit or Reach Us</p>
+      <h2 class="section-title">We're easy to <em>find & reach.</em></h2>
+
+      <div class="contact-rows">
+        <div class="contact-row">
+          <span class="ci"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.5-9.3-9A6 6 0 0112 5.5 6 6 0 0121.3 12c-2.3 4.5-9.3 9-9.3 9z" stroke="#0EA5E9" stroke-width="1.5"/><circle cx="12" cy="11" r="2.3" stroke="#0EA5E9" stroke-width="1.5"/></svg></span>
+          <div><strong>Address</strong><p>12 Yamuna Vihar Main Road, Sector 62, Noida, UP 201301</p></div>
+        </div>
+        <div class="contact-row">
+          <span class="ci"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1L6.6 10.8z" stroke="#0EA5E9" stroke-width="1.5" stroke-linejoin="round"/></svg></span>
+          <div><strong>Phone</strong><p>+91 120 456 7890</p></div>
+        </div>
+        <div class="contact-row">
+          <span class="ci"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#0EA5E9" stroke-width="1.5"/><path d="M3 7l9 6 9-6" stroke="#0EA5E9" stroke-width="1.5"/></svg></span>
+          <div><strong>Email</strong><p>hello@yamunadental.in</p></div>
+        </div>
+        <div class="contact-row">
+          <span class="ci"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 8v5l3 2" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="12" r="9" stroke="#0EA5E9" stroke-width="1.5"/></svg></span>
+          <div><strong>Hours</strong><p>Mon – Sat: 9:00 AM – 8:30 PM<br>Sunday: 10:00 AM – 2:00 PM (Emergency only)</p></div>
+        </div>
+        <div class="contact-row">
+          <span class="ci"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="8" width="18" height="10" rx="2" stroke="#0EA5E9" stroke-width="1.5"/><path d="M7 8V6a2 2 0 012-2h6a2 2 0 012 2v2" stroke="#0EA5E9" stroke-width="1.5"/></svg></span>
+          <div><strong>Parking</strong><p>Free basement parking for all patients, entry from Sector 62 Main Road.</p></div>
+        </div>
+      </div>
+
+      <div class="contact-cta-row">
+        <a href="tel:+911204567890" class="btn btn-primary">Call Now</a>
+        <a href="https://wa.me/911204567890" class="btn btn-whatsapp">WhatsApp Us</a>
+      </div>
+    </div>
+
+    <div class="contact-map">
+      <iframe title="Clinic location map" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.5!2d77.365!3d28.615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM2JzU0LjAiTiA3N8KwMjEnNTQuMCJF!5e0!3m2!1sen!2sin!4v0" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="brand">
+        <span class="brand-mark" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 30 30" fill="none"><path d="M15 5C10 5 6 9 6 14C6 18 8 22 9.5 25C10.2 26.5 12 26 12.3 24.3C12.7 22 13.5 17 15 17C16.5 17 17.3 22 17.7 24.3C18 26 19.8 26.5 20.5 25C22 22 24 18 24 14C24 9 20 5 15 5Z" stroke="#0EA5E9" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+        <span class="brand-word">Yamuna<em>Dental</em></span>
+      </a>
+      <p>Healthy Smiles. Trusted Care.<br>Premium dentistry for the whole family.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H9v3h2v6h3v-6h3l1-3h-4V9c0-.6.4-1 1-1z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2.5" y="6" width="19" height="12" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M10.5 9.5l5 2.5-5 2.5v-5z" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="#treatments">Treatments</a>
+      <a href="#doctors">Doctors</a>
+      <a href="#gallery">Smile Gallery</a>
+      <a href="#offers">Offers</a>
+      <a href="#faq">FAQ</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Appointment</h4>
+      <a href="#book">Book Online</a>
+      <a href="tel:+911204567890">Call Now</a>
+      <a href="https://wa.me/911204567890">WhatsApp</a>
+      <a href="#contact">Emergency Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Google Reviews</h4>
+      <div class="footer-rating">
+        <div class="stars">★★★★★</div>
+        <span>4.9 average · 2,300+ reviews</span>
+      </div>
+      <a href="#reviews">Read patient stories</a>
+    </div>
+
+    <div class="footer-col footer-map-col">
+      <h4>Location</h4>
+      <p>12 Yamuna Vihar Main Road,<br>Sector 62, Noida, UP 201301</p>
+      <a href="#contact">Get Directions →</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <span>© 2026 Yamuna Dental Clinic. All rights reserved.</span>
+      <span class="footer-legal"><a href="#">Privacy Policy</a> · <a href="#">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ FLOATING ACTIONS ============ -->
+<div class="floating-actions">
+  <a href="https://wa.me/911204567890" class="fab fab-whatsapp" aria-label="Chat on WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l5.08-1.33A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18.2c-1.63 0-3.15-.46-4.44-1.26l-.32-.19-2.98.78.8-2.9-.21-.3A8.18 8.18 0 013.8 12 8.2 8.2 0 1112 20.2zm4.5-6.13c-.24-.12-1.44-.71-1.66-.79-.22-.08-.39-.12-.55.12-.16.24-.63.79-.78.95-.14.16-.28.18-.53.06-.24-.12-1.02-.38-1.95-1.2-.72-.64-1.2-1.44-1.35-1.68-.14-.24-.02-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.42-.55-.42-.14 0-.3-.02-.46-.02-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.44-.59 1.64-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28z"/></svg>
+  </a>
+  <button class="fab fab-ai" id="aiFab" aria-label="Open AI Dental Assistant">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3v2M12 19v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M3 12h2M19 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.6"/></svg>
+  </button>
+</div>
+
+<!-- ============ AI ASSISTANT PANEL ============ -->
+<div class="ai-panel" id="aiPanel">
+  <div class="ai-header">
+    <div class="ai-title"><span class="ai-dot"></span> Yamuna AI Dental Assistant</div>
+    <button class="ai-close" id="aiClose" aria-label="Close">✕</button>
+  </div>
+  <div class="ai-body" id="aiBody">
+    <div class="ai-msg ai-bot">Hi! I can help with clinic timings, treatments, pricing, appointments, or emergencies. What do you need?</div>
+    <div class="ai-quick">
+      <button data-q="hours">Clinic timings</button>
+      <button data-q="pricing">Treatment pricing</button>
+      <button data-q="emergency">I have an emergency</button>
+      <button data-q="book">Book an appointment</button>
+    </div>
+  </div>
+  <div class="ai-input-row">
+    <input type="text" id="aiInput" placeholder="Type your question...">
+    <button id="aiSend" aria-label="Send">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
